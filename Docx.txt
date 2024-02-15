@@ -1,0 +1,69 @@
+Introduction:
+
+Welcome to the documentation for your trading application! This guide provides a comprehensive overview of the app's features, usage, and considerations for optimal performance.
+
+Invalid Symbol Issue Reasons:
+
+If you encounter an "Invalid Symbol" issue while fetching trade data, it might be due to the following reasons:
+
+Symbol Existence:
+
+Ensure that the symbol you are trying to fetch exists and is valid for trading in your current context.
+Earn vs. Spot Wallet:
+
+If your assets are in the Earn wallet, use the appropriate method for fetching trades, as the get_my_trades function typically works for the Spot wallet.
+
+App Features:
+
+Account Information:
+	Display essential account information, including token balances (free and locked) for the admin.
+
+Registered Clients:
+	Provide a list of registered clients with IDs, usernames, and status (active or inactive).
+	Include buttons for viewing, editing, deactivating, and removing each client.
+
+Analytics:
+	Fetch and display the admin's trades from the Binance API.
+	Utilize DataFrames to analyze and visualize trade data.
+	Present analytics like total profit/loss, recent trades summary, and individual graphs for each symbol's trades.
+
+Client Registration:
+	Allow the admin to register new clients with their username, password, API key, and secret key.
+	Implement error handling for cases such as existing usernames.
+
+Client Management:
+	Provide buttons for viewing, editing, deactivating, and removing clients.
+	Handle these operations securely in the database.
+
+Plotting Trades:
+	Create plots for recent trades and individual symbol trades.
+
+Graph Interaction:
+	Allow the admin to click on symbols in a listbox to view the corresponding trade graph.
+
+
+To Do:-
+
+Error Handling:
+	Display clear error messages for issues with fetching trades or other operations.
+	Additional Features to Add:
+
+Data Filtering:
+	Enable the admin to filter trades based on criteria such as date range, specific symbols, or profit/loss thresholds.
+
+More Analytics:
+	Incorporate more sophisticated analytics, including performance metrics, trade frequency, or risk analysis.
+	
+Notifications:
+
+	Implement a notification system to alert the admin about important events, such as significant profit/loss, high trade frequency, or inactive 	clients.
+
+Important Note:
+	Please be cautious when using the create_test_order method, as it's intended for testing purposes. For actual orders, use the create_order 	method, understanding the implications and risks involved in placing real orders.
+
+
+
+About Me:
+Name: Shivansh Saxena
+Email: shivanshs081@gmail.com
+Feel free to reach out for any inquiries, feedback, or collaboration opportunities. Your success and satisfaction are my top priorities!

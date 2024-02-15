@@ -1,0 +1,3 @@
+for user,
+
+right now some functions are not 100% working such as client list , this is a testing version  so  try registering a client even if client username is not shown in the client list try to do a test trade from admin side to check if its copying the trade without the client list ,i believe it should be working if u find any errors and bugs inform me i be sending fixes asap.... (i have fixed some server time issue in which were coming after converting the code to application send me any other bugs too so i can update before converting to application)
